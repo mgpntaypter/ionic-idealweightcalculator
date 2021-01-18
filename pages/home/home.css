@@ -8,6 +8,7 @@ ion-content {
 }
 
 .curved {
+  padding-top: 70px;
   text-align: center;
   font-size: 6vw;
   color: #f53d3d;
@@ -81,28 +82,29 @@ h2 {
   font-size: 8vw;
 }
 
-img {
-  margin-top: 30px;
-  margin-left: 5%;
+img{
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float:none;
   width: 10%;
   min-width: 150px;
   height: auto;
   transform: rotate(-8deg);
-  position: absolute;
 }
 
 div.desc{
-  position: absolute;
   background-color: #fef4ce;
-  margin-top: 45px;
-  margin-left: 25%;
-  width: 57%;
-  z-index: -1;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
   border-style: solid;
   border-width: 5px;
   border-color: #f53d3d;
-  padding-top: 10px;
-  padding-left: 70px;
+  padding: 10px;
+  padding-bottom: 0;
 }
 
 h4{
@@ -114,11 +116,13 @@ p{
   text-align: justify;
   padding-right: 10px;
   padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width: 1000px) {
   .curved {
     font-size: 35px;
+    padding-top: 0;
   }
   h1 {
     font-size: 8.5vw;
@@ -129,8 +133,21 @@ p{
   img {
     margin-left: 16%;
   }
-  div.desc{
-    padding-left: 50px;
-    padding-right: 10px;
+  img {
+  margin-top: 30px;
+  margin-left: 16%;
+  width: 10%;
+  min-width: 150px;
+  height: auto;
+  transform: rotate(-8deg);
+  float: left;
   }
+  div.desc{
+    margin-top: 30px;
+    width: 48%;
+    max-width: 600px;
+    margin-left: 2%;
+    float: left;
+  }
+
 }
