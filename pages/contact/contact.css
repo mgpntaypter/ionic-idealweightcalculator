@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ion-title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ion-grid {
+  background-color: #f2bd04;
+  width: 90%;
+  max-width: 350px;
+  margin-left: 5%;
+  float: left;
+}
+
+.titleGrid {
+  height: auto;
+  padding-top: 8px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+h4 {
+  font-family: "Alfa Slab One", cursive;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.white-row {
+  background-color: #fef4ce;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+ion-label {
+  font-family: "Alfa Slab One", cursive;
+  padding-top: 6px;
+}
+
+ion-label.sex {
+  padding-top: 16px;
+  padding-left: 20px;
+  margin-right: 50px;
+}
+
+ion-label.height {
+  padding-left: 20px;
+  margin-right: 50px;
+}
+
+ion-select {
+  max-width: 85%;
+  height: 40px;
+  padding-top: 16px;
+  font-family: "Alfa Slab One", cursive;
+  color: #79bb23;
+  --placeholder-opacity: 1;
+  text-align: center;
+  padding-right: 10px;
+}
+
+ion-input {
+  text-align: right;
+  font-family: "Alfa Slab One", cursive;
+  color: #79bb23;
+  font-size: 20px;
+  height: 30px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+ion-col.between {
+  height: 20px;
+}
+
+p.message {
+  text-align: right;
+  color: red;
+  padding-right: 8%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ion-col.contButton {
+  margin-right: 18px;
+  padding: 10px;
+}
+
+button {
+  background-color: #79bb23;
+  width: 100%;
+  font-family: "Alfa Slab One", cursive;
+}
+
+h5 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 5px;
+}
+
+h6 {
+  padding: 2px;
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+ion-col.result {
+  padding-bottom: 10px;
+}
+
+div.article {
+  margin-top: 30px;
+  margin-left: 5%;
+  float: left;
+  background-color: white;
+  text-align: justify;
+  margin-right: 5%;
+  padding: 15px;
+  max-width: 700px;
+}
+
+img {
+  max-height: 100px;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+
+ul {
+  margin-left: 40px;
+}

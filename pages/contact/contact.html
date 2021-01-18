@@ -1,0 +1,150 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Monofett&display=swap"
+  rel="stylesheet"
+/>
+
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>Calculator</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row class="titleGrid">
+      <ion-col>
+        <h4>CALCUWEIGHT</h4>
+      </ion-col>
+    </ion-row>
+    <ion-row class="white-row">
+      <ion-col>
+        <ion-label class="sex"> SEX: </ion-label>
+      </ion-col>
+      <ion-col>
+        <ion-select
+          interface="popover"
+          [(ngModel)]="sex"
+          placeholder="Select One"
+        >
+          <ion-option value="male">Male</ion-option>
+          <ion-option value="female">Female</ion-option>
+        </ion-select>
+      </ion-col>
+    </ion-row>
+    <ion-row id="sMessage" class="white-row">
+      <ion-col>
+        <p class="message">{{sMessage}}</p>
+      </ion-col>
+    </ion-row>
+    <ion-row class="white-row">
+      <ion-col>
+        <ion-label class="height"> HEIGHT: </ion-label>
+      </ion-col>
+      <ion-col>
+        <ion-input
+          type="number"
+          [(ngModel)]="ftHeight"
+          placeholder="__"
+        ></ion-input>
+      </ion-col>
+      <ion-col>
+        <ion-label>ft.</ion-label>
+      </ion-col>
+      <ion-col>
+        <ion-input
+          type="number"
+          [(ngModel)]="inHeight"
+          placeholder="__"
+        ></ion-input>
+      </ion-col>
+      <ion-col>
+        <ion-label>in.</ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row id="hMessage" class="white-row">
+      <ion-col>
+        <p class="message">{{hMessage}}</p>
+      </ion-col>
+    </ion-row>
+    <ion-row class="white-row">
+      <ion-col></ion-col>
+      <ion-col></ion-col>
+      <ion-col class="contButton">
+        <button ion-button color="secondary" (click)="calculateWeight()">
+          Solve
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row><ion-col class="between"></ion-col></ion-row>
+    <ion-row class="white-row">
+      <ion-col class="result">
+        <h5>IDEAL WEIGHT ACCORDING TO:</h5>
+        <h6>Miller (1983): &emsp;&emsp;&emsp;&emsp;&emsp;{{miller}}kg.</h6>
+        <h6>Robinson (1983): &nbsp;&emsp;&emsp;&emsp;{{robinson}}kg.</h6>
+        <h6>Devine (1974): &ensp;&emsp;&emsp;&emsp;&emsp;{{devine}}kg.</h6>
+        <h6>Hamwi (1964): &ensp;&emsp;&emsp;&emsp;&emsp;{{hamwi}}kg.</h6>
+      </ion-col>
+    </ion-row>
+    <ion-row><ion-col class="between"></ion-col></ion-row>
+  </ion-grid>
+
+  <div class="article">
+    <img />
+    <img />
+    <h3>How is my Ideal Weight Calculated?</h3>
+    <p>
+      The Ideal Weight Calculator computes ideal bodyweight (IBW) ranges based
+      on <b>height</b> and <b>sex</b>.
+    </p>
+    <br />
+    <p>
+      <i
+        >&emsp;For male, the ideal weight calculator uses the following
+        equations:</i
+      >
+    </p>
+    <ul>
+      <li>
+        Miller formula:
+        <code>56.2 kg + 1.41 kg per every inch over 5 feet</code>
+      </li>
+      <li>
+        Robinson formula: <code>52 kg + 1.9 kg per every inch over 5 feet</code>
+      </li>
+      <li>
+        Devine formula: <code>50.0 kg + 2.3 kg per every inch over 5 feet</code>
+      </li>
+      <li>
+        Hamwi formula: <code>48.0 kg + 2.7 kg per every inch over 5 feet</code>
+      </li>
+    </ul>
+    <br />
+    <p>
+      <i
+        >&emsp;For female, the ideal weight calculator uses the following
+        equations:</i
+      >
+    </p>
+    <ul>
+      <li>
+        Miller formula:
+        <code>53.1 kg + 1.36 kg per every inch over 5 feet </code>
+      </li>
+      <li>
+        Robinson formula:
+        <code>49 kg + 1.7 kg per every inch over 5 feet </code>
+      </li>
+      <li>
+        Devine formula: <code>45.5 kg + 2.3 kg per every inch over 5 feet</code>
+      </li>
+      <li>
+        Hamwi formula: <code>45.5 kg + 2.2 kg per every inch over 5 feet</code>
+      </li>
+    </ul>
+  </div>
+</ion-content>
