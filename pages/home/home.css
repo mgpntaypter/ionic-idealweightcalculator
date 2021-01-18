@@ -87,7 +87,7 @@ img {
   width: 10%;
   min-width: 150px;
   height: auto;
-  transform: rotate(-10deg);
+  transform: rotate(-8deg);
   position: absolute;
 }
 
@@ -96,8 +96,7 @@ div.desc{
   background-color: #fef4ce;
   margin-top: 45px;
   margin-left: 22%;
-  height: 110px;
-  width: 55%;
+  width: 57%;
   z-index: -1;
   border-style: solid;
   border-width: 5px;
@@ -123,5 +122,9 @@ h4{
   }
   img {
     margin-left: 18%;
+  }
+  div.desc{
+    padding-left: 100px;
+    max-height: 110px;
   }
 }
