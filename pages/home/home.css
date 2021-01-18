@@ -14,12 +14,6 @@ ion-content {
   font-family: "Alfa Slab One", cursive;
 }
 
-@media screen and (min-width: 1000px) {
-  .curved {
-     font-size: 40px;
-  }
-}
-
 .e1 {
   transform: translate(13px, 60px) rotate(-25deg);
 }
@@ -98,4 +92,13 @@ h2{
   color: #79bb23;
   text-align: center;
   font-size: 8vw;
+}
+
+@media screen and (min-width: 1000px) {
+  .curved {
+     font-size: 40px;
+  }
+  h2{
+    font-size: 4vw;
+  }
 }
