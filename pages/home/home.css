@@ -6,3 +6,12 @@
 ion-content {
   background-image: url("https://cdn.jsdelivr.net/gh/mgpntaypter/ionic-idealweightcalculator@master/bg%20image.png");
 }
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #DD5911;
+  font-family: "Alfa Slab One", cursive;
+}
