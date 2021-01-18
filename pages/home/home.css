@@ -102,6 +102,12 @@ div.desc{
   border-style: solid;
   border-width: 5px;
   border-color: #f53d3d;
+  padding-top: 10px;
+  padding-left: 70px;
+}
+
+h4{
+  font-family: "Alfa Slab One", cursive;
 }
 
 @media screen and (min-width: 1000px) {
