@@ -108,6 +108,7 @@ div.desc{
 
 h4{
   font-family: "Alfa Slab One", cursive;
+  font-size: 15px;
 }
 
 @media screen and (min-width: 1000px) {
