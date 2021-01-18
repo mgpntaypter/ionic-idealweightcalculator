@@ -88,6 +88,14 @@ img {
   min-width: 150px;
   height: auto;
   transform: rotate(-10deg);
+  position: absolute;
+}
+
+div{
+  position: absolute;
+  background-color: white;
+  height: 100px;
+  width: 100px;
 }
 
 @media screen and (min-width: 1000px) {
