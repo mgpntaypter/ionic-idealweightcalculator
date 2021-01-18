@@ -127,10 +127,10 @@ p{
     font-size: 35px;
   }
   img {
-    margin-left: 18%;
+    margin-left: 16%;
   }
   div.desc{
     padding-left: 50px;
-    max-height: 120px;
+    padding-right: 10px;
   }
 }
