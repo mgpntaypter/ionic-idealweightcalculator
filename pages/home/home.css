@@ -1,0 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ion-content {
+  background-image: url("https://cdn.jsdelivr.net/gh/mgpntaypter/ionic-idealweightcalculator@master/bg%20image.png");
+}
