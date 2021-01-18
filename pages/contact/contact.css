@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+ion-content {
+  background-image: url("https://cdn.jsdelivr.net/gh/mgpntaypter/ionic-idealweightcalculator@master/bg%20image.png");
+}
+
 ion-title {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -13,6 +17,7 @@ ion-grid {
   max-width: 350px;
   margin-left: 5%;
   float: left;
+  margin-bottom: 30px;
 }
 
 .titleGrid {
@@ -118,19 +123,32 @@ ion-col.result {
   padding-bottom: 10px;
 }
 
+div.images {
+  margin-left: 5%;
+  float: left;
+  max-width: 638px;
+  width: 90%;
+}
+
 div.article {
-  margin-top: 30px;
   margin-left: 5%;
   float: left;
   background-color: white;
   text-align: justify;
   margin-right: 5%;
   padding: 15px;
-  max-width: 700px;
+  width: 90%;
+  max-width: 638px;
 }
 
 img {
-  max-height: 100px;
+  width: 50%;
+  height: auto;
+  min-height: 100px;
+  max-height: 180px;
+  padding: 0;
+  margin: 0;
+  float: left;
 }
 
 h3 {
@@ -142,4 +160,17 @@ h3 {
 
 ul {
   margin-left: 40px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p.source {
+  text-align: right;
+  font-size: 10px;
+}
+
+a {
+  color: #79bb23;
 }
