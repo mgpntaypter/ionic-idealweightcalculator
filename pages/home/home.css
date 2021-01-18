@@ -94,11 +94,23 @@ h2{
   font-size: 8vw;
 }
 
+img{
+  margin-top: 30px;
+  margin-left: 5%;
+  width: 10%;
+  min-width: 150px;
+  height: auto;
+  transform: rotate(-10deg);
+}
+
 @media screen and (min-width: 1000px) {
   .curved {
-     font-size: 40px;
+     font-size: 35px;
+  }
+  h1{
+    font-size: 8.5vw;
   }
   h2{
-    font-size: 4vw;
+    font-size: 35px;
   }
 }
