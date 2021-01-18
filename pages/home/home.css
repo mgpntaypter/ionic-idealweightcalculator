@@ -71,3 +71,28 @@ ion-content {
 span {
   display: inline-block;
 }
+
+h1{
+  font-family: "Alfa Slab One", cursive;
+  color: #f2bd04;
+  text-shadow:
+    0 1px #f53d3d,
+    -1px 0 #DD5911,
+    -1px 2px #f53d3d,
+    -2px 1px #DD5911,
+    -2px 3px #f53d3d,
+    -3px 2px #DD5911,
+    -3px 4px #f53d3d,
+    -4px 3px #DD5911,
+    -4px 5px #f53d3d,
+    -5px 4px #DD5911,
+    -5px 6px #f53d3d,
+    -6px 5px #DD5911,
+    -6px 7px #f53d3d,
+    -7px 6px #DD5911,
+    -7px 8px #f53d3d,
+    -8px 7px #DD5911;
+    margin-top: 60px;
+    font-size: 10vw;
+    text-align: center;
+}
