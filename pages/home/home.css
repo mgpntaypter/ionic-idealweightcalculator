@@ -7,6 +7,19 @@ ion-content {
   background-image: url("https://cdn.jsdelivr.net/gh/mgpntaypter/ionic-idealweightcalculator@master/bg%20image.png");
 }
 
+.curved {
+  text-align: center;
+  font-size: 6vw;
+  color: #f53d3d;
+  font-family: "Alfa Slab One", cursive;
+}
+
+@media screen and (min-width: 1000px) {
+  .curved {
+     font-size: 40px;
+  }
+}
+
 .e1 {
   transform: translate(13px, 60px) rotate(-25deg);
 }
