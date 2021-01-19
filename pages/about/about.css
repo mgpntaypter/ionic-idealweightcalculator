@@ -11,3 +11,7 @@ h1{
 div.main{
   float: left;
 }
+
+div{
+  max-width: 500px;
+}
