@@ -16,7 +16,7 @@ div.main {
 }
 
 div.app {
-  max-width: 450px;
+  max-width: 375px;
   background-color: #fef4ce;
   margin-top: 0;
   padding: 15px;
@@ -73,7 +73,7 @@ h2 {
 }
 
 div.dev {
-  max-width: 190px;
+  max-width: 210px;
   float: left;
   background-color: white;
   margin-bottom: 30px;
