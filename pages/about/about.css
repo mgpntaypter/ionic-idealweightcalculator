@@ -2,7 +2,7 @@ ion-content {
   background-image: url("https://cdn.jsdelivr.net/gh/mgpntaypter/ionic-idealweightcalculator@master/bg%20image.png");
 }
 
-h1{
+h1 {
   font-family: "Alfa Slab One", cursive;
   color: #f2bd04;
   font-size: 50px;
@@ -10,12 +10,12 @@ h1{
   padding-bottom: 0;
 }
 
-div.main{
+div.main {
   float: left;
   margin-left: 5%;
 }
 
-div.app{
+div.app {
   max-width: 450px;
   background-color: #fef4ce;
   margin-top: 0;
@@ -24,16 +24,16 @@ div.app{
   padding-bottom: 5px;
   border-style: solid;
   border-width: 5px;
-  border-color: #f53d3d;
+  border-color: #f2bd04;
 }
 
-p{
+p {
   text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
 }
 
-p.inst{
+p.inst {
   font-size: 11px;
   line-height: 1.2;
   padding-top: 0;
@@ -42,18 +42,74 @@ p.inst{
   padding-left: 10px;
 }
 
-h3{
+h3 {
   font-family: "Alfa Slab One", cursive;
   font-size: 20px;
   color: #f53d3d;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
-h4{
+h4 {
   font-family: "Alfa Slab One", cursive;
   font-size: 15px;
   color: #79bb23;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
   line-height: 1;
   padding-left: 5px;
+}
+
+h2 {
+  font-family: "Alfa Slab One", cursive;
+  color: #79bb23;
+  font-size: 40px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+div.dev {
+  max-width: 190px;
+  float: left;
+  background-color: white;
+  margin-bottom: 30px;
+  margin-right: 25px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+img {
+  width: 160px;
+  height: 130px;
+  margin-bottom: 5px;
+  padding: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+h5 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 12px;
+  line-height: 1;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+p.mes {
+  font-size: 11px;
+  line-height: 1;
+  padding-top: 0;
+  margin-top: 3px;
+  margin-bottom: 0;
+  padding-right: 7px;
+  padding-left: 7px;
 }
