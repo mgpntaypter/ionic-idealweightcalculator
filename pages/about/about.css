@@ -33,6 +33,10 @@ p {
   font-size: 13px;
 }
 
+a{
+  color: #79bb23;
+}
+
 p.inst {
   font-size: 11px;
   line-height: 1.2;
