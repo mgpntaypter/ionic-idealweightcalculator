@@ -20,11 +20,31 @@ div.app{
   background-color: #fef4ce;
   margin-top: 0;
   padding: 10px;
-  padding-top: 2px;
+  padding-top: 1px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #f53d3d;
 }
 
-p.maindesc{
+p{
+  text-align: justify;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
-  text-align: justify;
+}
+
+p.inst{
+  font-size: 11px;
+  line-height: 1;
+}
+
+h3{
+  font-family: "Alfa Slab One", cursive;
+  font-size: 20px;
+  color: #f53d3d;
+}
+
+h4{
+  font-family: "Alfa Slab One", cursive;
+  font-size: 15px;
+  color: #79bb23;
 }
