@@ -6,6 +6,8 @@ h1{
   font-family: "Alfa Slab One", cursive;
   color: #f2bd04;
   font-size: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 div.main{
@@ -15,6 +17,10 @@ div.main{
 
 div.app{
   max-width: 450px;
+  background-color: #fef4ce;
+  margin-top: 0;
+  padding: 10px;
+  padding-top: 2px;
 }
 
 p.maindesc{
