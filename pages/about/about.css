@@ -7,3 +7,7 @@ h1{
   color: #f2bd04;
   font-size: 50px;
 }
+
+div.main{
+  float: left;
+}
